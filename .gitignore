@@ -1,2 +1,10 @@
-templates/footer.pptx
-templates/header.pptx
+# テーマごとの生成物（docs, js, py, md, etc.）を無視
+# templates と .github は公開対象
+**/docs/
+**/py/
+**/js/
+**/md/
+**/node_modules/
+*.bak
+package.json
+package-lock.json
