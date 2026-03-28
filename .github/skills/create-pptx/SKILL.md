@@ -1,9 +1,10 @@
 ---
 name: create-pptx
-description: PowerPoint を新規に作成する指示があった際に、node.js の pptxgenjs を使用して .pptx 形式の資料を作成します。
+description: PowerPoint を新規に作成する指示があった際に、node.js の PptxGenJS を使用して .pptx 形式の資料を作成します。PowerPoint ファイルを修正する際は、Python の python-pptx を使用して既存の .pptx ファイルを読み込み、内容を更新します。
 ---
 
 ## 基本レイアウト・デザイン条件
+- すべてのテキスト（タイトル・見出し・本文・箇条書き・テーブル内を含む）のフォントは **Meiryo UI** を使用し、`run.font.name = 'Meiryo UI'` で明示的に設定してください。テンプレートから差し替えた表紙のタイトルも同様です。
 - デザインは図解や箇条書きを活用し、視覚的にわかりやすくします。
 - スライドの内容は簡潔にまとめ、重要なポイントを強調します。
 - アイコンやイラストを適宜使用し、視覚的な興味を引きます。

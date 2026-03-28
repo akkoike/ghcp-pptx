@@ -15,4 +15,5 @@
   - 各スライドの見出し・本文（箇条書き）
   - 図解が必要な箇所には図解の種類を明記
   - 参照した外部サイトのリンク情報を記載
+  - [.github/instructions/createpptx.instructions.md] に記載された条件を満たす内容にします。
 - 完成後、[.github/agents/checkmd.md] によるレビューに進みます。
