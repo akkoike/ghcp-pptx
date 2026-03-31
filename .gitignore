@@ -1,2 +1,7 @@
 # templates フォルダ内のファイルは非公開
 templates/*.pptx
+
+# ユースケース関連ファイルは非公開
+usecase.pptx
+screenshot*.png
+create_usecase.py
