@@ -5,3 +5,11 @@ templates/*.pptx
 usecase.pptx
 screenshot*.png
 create_usecase.py
+
+# その他
+AzureArc/*
+AzureLocal/*
+AzureNetworkWatcher/*
+AzureVirtualDesktop/*
+FDE_AI支援/*
+ユースケース/*
